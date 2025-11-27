@@ -178,7 +178,7 @@ if (testLeft && testRight && scrollContainer) {
       behavior: 'smooth'
     });
   });
-}x
+}
   // TESTIMONEL RATING 
   const ratings = document.querySelectorAll('.rating');
   ratings.forEach(ratings => {
