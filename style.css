@@ -1,0 +1,26 @@
+
+/*  */
+ul li a:hover {
+  color: #fbbf24; 
+}
+
+/* animation for section why us  */
+.card {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.5s ease;
+}
+
+.card.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+.products::-webkit-scrollbar , .test-container::-webkit-scrollbar {
+  display: none;
+}
+.products , .test-container {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
