@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const productData = async () => {
     try {
-      const res = await fetch('products.json');
+      const res = await fetch('./products.json');
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);
       }
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (error) {
       console.error("Error loading products:", error);
       if (container) {
-        container.innerHTML = '<p class="text-red-500 p-4">Error loading products. Please make sure products.json exists.</p>';
+        container.innerHTML = '<p class="text-red-500 p-4">Error loading products.</p>';
       }
     }
   };
