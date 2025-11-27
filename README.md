@@ -28,3 +28,4 @@ PAnto is a modern furniture e-commerce platform that brings minimalist design ph
 - **CSS Grid & Flexbox** - Responsive layouts
 
 ## 🚀 Live Demo
+https://p-anto.vercel.app/
